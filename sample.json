@@ -1,0 +1,83 @@
+{
+    "users": 
+        [
+            {
+                "district": "vancouver east",
+                "email": "john@test.com",
+                "id": "Aa5O9gIOCmU0SwHjWtrg",
+                "firstName": "John",
+                "organization": false,
+                "lastName": "Smith",
+                "uid": "eSB69mcBBRVLnMf5L10arDYl0J72",
+                "password": "123123123"
+                
+            },
+            {
+                "address": "555 Seymour St, Vancouver, BC",
+                "email": "test@test.com",
+                "description": "The mission of the British Columbia Society for the Prevention of Cruelty to Animals (BC SPCA) is to protect and enhance the quality of life for domestic, farm and wild animals in British Columbia.",
+                "logoUrl": "url",
+                "id": "pUvh3L9RqHxGqrwcznSs",
+                "organization": true,
+                "name": "SPCA",
+                "phoneNumber": "123-123-1234",
+                "organizationType": "animals",
+                "sector": "health",
+                "qrCode": "random number",
+                "uid": "WR4JfK75DQd3ZbeGYiWlanVDe7X2",
+                "password": "hellohello",
+                "commitmentPeriod": "longterm"
+                
+            }
+        ],
+    "postings": 
+        [
+            {
+                "aboutUs": "to later be queried by db",
+                "commitmentPeriod": "longterm",
+                "experience": "none",
+                "duties": "cleaning, reading, walking the elderly",
+                "location": "not applicable",
+                "id": "4TBdb9nOxr6J1eFhLAi9",
+                "position": "elderly assistant",
+                "time": "14"
+            },
+            {
+                "aboutUs": "to later be queried by db",
+                "commitmentPeriod": "longterm",
+                "experience": "none",
+                "duties": "cleaning, reading, walking the elderly",
+                "location": "not applicable",
+                "id": "4TBdb9nOxr6J1eFhLAi9",
+                "position": "elderly assistant"
+            },
+            {
+                "aboutUs": "to later be queried by db",
+                "commitmentPeriod": "longterm",
+                "experience": "none",
+                "duties": "cleaning, reading, walking the elderly",
+                "location": "not applicable",
+                "id": "4TBdb9nOxr6J1eFhLAi9",
+                "position": "elderly assistant"
+            },
+            {
+                "aboutUs": "to later be queried by db",
+                "commitmentPeriod": "longterm",
+                "experience": "none",
+                "duties": "cleaning, reading, walking the elderly",
+                "location": "not applicable",
+                "id": "4TBdb9nOxr6J1eFhLAi9",
+                "position": "elderly assistant"
+            },
+            {
+                "aboutUs": "to later be queried by db",
+                "commitmentPeriod": "longterm",
+                "experience": "none",
+                "duties": "cleaning, reading, walking the elderly",
+                "location": "not applicable",
+                "id": "7EloFcDmPKNw7NpTEC89",
+                "position": "elderly assistant"
+            }
+    ]
+
+}

@@ -1,0 +1,90 @@
+.MainFormCont {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    .return {
+        margin-left: 70px;
+        cursor: pointer;
+        width: max-content;
+    }
+    .formContent {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+       
+       
+
+        .innerFormCont {
+            width: 60%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    
+                  
+            .logoForm {
+                width: 80px;
+            }
+            .form1 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+             
+                .formRow {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 40px;
+        
+                   ;
+              
+                    h5 {
+                        margin-bottom: 10px;
+                        color: #333333;
+                    }
+                    .parentConsent {
+                        width: 100%;
+                        height: 36px;
+                        border: 0.678715px solid #c4c4c4;
+                        border: 0.678715px solid #e4e4e4;
+                    }
+                    p {
+                        margin-top: 5px;
+                        margin-left: 4px;
+                        color: grey;
+                    }
+                    .input1 {
+                        height: 130px;
+                        margin-bottom: 20px;
+                        flex: 1;
+                    }
+                    .input2 {
+                        margin-top: 21px;
+                        height: 130px;
+                        display: flex;
+                        flex: 1;
+                    }
+                }
+                .submitApplication {
+                    background-color: #7480ff;
+                    border: none;
+                    border-radius: 5px;
+                    padding: 20px;
+                    color: white;
+                    width: max-content;
+                    font-weight: 600;
+                    filter: brightness(100%);
+                    :hover {
+                        filter: brightness(93%);
+                    }
+                }
+                .confirmation {
+                    
+                }
+            }
+        }
+    }
+}

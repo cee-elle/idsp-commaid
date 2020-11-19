@@ -1,0 +1,48 @@
+
+.VolunteersSavedTableMainCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .pageHeader {
+        width: 60%;
+    }
+    .pageHeader p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .buttonBox{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }   
+        .VolunteersSavedTableContent {
+            justify-content: center;
+            align-items: center;
+        }
+        .VolunteersSavedTableContainerBox{
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+            background-color: #ffffff;
+            margin: 50px;
+            box-shadow: 0px 10px 11px 1px rgba(0,0,0,0.10);
+        }
+        .newPostBtn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+        }
+    
+    .footer {
+        width: 100%;
+    }
+}

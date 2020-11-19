@@ -1,0 +1,109 @@
+$fs: 18px;
+  @import url("https://use.typekit.net/bvv0bey.css");
+
+@mixin flexIt{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@import './VolunteerListingPage/index.scss';
+@import './VolunteerInformationPage/index.scss';
+@import './ApplicationForm/index.scss';
+@import './VolunteerProfile/index.scss';
+@import './LandingPage/index.scss';
+@import './ApplicationForm/index.scss';
+@import './HourTracker/index.scss';
+@import './VolunteerHoursTable/index.scss';
+@import './VolunteerSavedTable/index.scss';
+@import './ActivePostsTable/index.scss';
+@import './ApplicantsTable/index.scss';
+
+@import './OrganizationProfile/index.scss';
+@import './OrganizationProfileEdit/index.scss';
+
+
+@import './Login/index.scss';
+@import './Login/index.scss';
+@import './VolunteerSignup/index.scss';
+@import './OrganizationSignup/index.scss';
+@import './NewPost/index.scss';
+
+
+
+$fs: 18px;
+
+
+body{
+   margin:0px;
+   overflow-x: hidden;
+}
+
+h1 {
+   font-family: FreightSans Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 50px;
+}
+
+h2 {
+   font-family: FreightSans Pro;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 30px;
+}
+
+h3 {
+   font-family: FreightSans Pro;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 25px;
+}
+
+h4 {
+   font-family: FreightSans Pro;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   color: rgb(32, 32, 32);
+}
+
+
+h5  {
+   font-family: FreightSans Pro;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   margin: 4px;
+   display: flex;
+   color: rgb(32, 32, 32);
+}
+
+p {
+   font-family: FreightSans Pro;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px; 
+}
+
+a{
+   font-family: FreightSans Pro;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   color: rgb(43, 43, 43);
+}
+
+
+.expandedMenu{
+    font-family: FreightSans Pro;
+    font-style: normal;
+}
+label{
+   font-family: FreightSans Pro;
+   font-style: normal;
+   font-size: 16px;
+}
+
+
+

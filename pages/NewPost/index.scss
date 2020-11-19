@@ -1,0 +1,85 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.postCont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pre {
+    position: relative;
+    top: 200px;
+    margin-left: 70px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.postFormContent {
+    position: relative;
+    top: 200px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+    .innerPostForm {
+
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .logo {
+            width: 80px;
+        }
+
+        .newForm {
+            margin-top: 50px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .newFormRow {
+                display: flex;
+                flex-direction: row;
+                gap: 40px;
+            }
+
+            h5 {
+                margin-left:0;
+                color: #333333;
+            }
+
+            .newInput {
+                height: 130px;
+                margin-bottom: 20px;
+                flex: 1;
+            }
+            .btnRow {
+                margin-top: 50px;
+                display: flex;
+                flex-direction: row;
+                gap: 40px;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.pre-bottom {
+    margin: 300px 0 200px 70px;
+    cursor: pointer;
+    width: max-content;
+}
+
+.footer {
+    width: 100%;
+}
